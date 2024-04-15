@@ -31,7 +31,7 @@ const Recipes = () => {
     const handleSearchedRecipe = async (e) => {
         e.preventDefault();
         setLoading(true);
-        setLimit(12);
+        setLimit(12)
         setRecipes([]); // Clear existing recipes
         await fetchRecipe(); // Fetch new recipes based on the search query
     };
@@ -44,7 +44,7 @@ const Recipes = () => {
 
     useEffect(() => {
         fetchRecipe();
-    }, [fetchRecipe]);
+    }, []);
 
     return (
         <div className="w-full">

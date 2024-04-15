@@ -1,4 +1,4 @@
-const API_KEY = 'fb17afc89ff8403b8f085f07ff479ed9';
+const API_KEY = '25d021b92fb24c668d22da74bdf81f5e';
 
 export async function fetchRecipes(filter) {
     const { query, limit } = filter;
