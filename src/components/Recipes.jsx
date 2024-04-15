@@ -44,7 +44,7 @@ const Recipes = () => {
 
     useEffect(() => {
         fetchRecipe();
-    }, []);
+    }, [fetchRecipe]);
 
     return (
         <div className="w-full">
