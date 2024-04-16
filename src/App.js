@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import RecipeDetail from './pages/RecipeDetail';
 import Login from './pages/Login';
 import Favourites from './pages/Favourites';
+import About from './pages/About'
 
 function Layout() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="recipes/:id" element={<RecipeDetail />} />
           <Route path="login" element={<Login />} />
           <Route path="favorites" element={<Favourites />} />
+          <Route path="about" element={<About />} />
         </Route>
       </Routes>
     </div>

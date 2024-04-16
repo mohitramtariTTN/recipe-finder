@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
-import Logo from '../images/logo.png'
-import { HiMenuAlt3 } from 'react-icons/hi'
-import { AiOutlineClose } from 'react-icons/ai'
-import Button from './Button'
+import React, { useState } from 'react';
+import Logo from '../images/logo.png';
+import { HiMenuAlt3 } from 'react-icons/hi';
+import { AiOutlineClose } from 'react-icons/ai';
+import Button from './Button';
 
 const Navbar = () => {
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(false);
 
     return (
         <header className='w-full fixed z-10 bg-black opacity-90'>
@@ -43,7 +43,7 @@ const Navbar = () => {
                 <a href="/">Favorites</a>
             </div>
         </header>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;

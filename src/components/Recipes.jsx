@@ -58,7 +58,7 @@ const Recipes = () => {
                 </form>
             </div>
 
-            <div className="w-full  flex flex-wrap gap-10 px-0 lg:px-10 py-10">
+            <div className="w-full  flex flex-wrap gap-10 px-0 lg:px-10 justify-center py-10">
                 {recipes.map((item, index) => (
                     <RecipeCard recipe={item} key={index} />
                 ))}
