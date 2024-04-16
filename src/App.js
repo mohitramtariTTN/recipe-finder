@@ -5,7 +5,10 @@ import Footer from './components/Footer';
 import RecipeDetail from './pages/RecipeDetail';
 import Login from './pages/Login';
 import Favourites from './pages/Favourites';
-import About from './pages/About'
+import About from './pages/About';
+import TermsAndConditions from './pages/TermsAndConditions';
+import LicenseAgreement from './pages/LicenseAggrement';
+import PrivacyPolicy from './pages/PrivacyPollicy';
 
 function Layout() {
   return (
@@ -27,6 +30,9 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="favorites" element={<Favourites />} />
           <Route path="about" element={<About />} />
+          <Route path="termsAndConditions" element={<TermsAndConditions />} />
+          <Route path="license" element={<LicenseAgreement />} />
+          <Route path="privacyPolicy" element={<PrivacyPolicy />} />
         </Route>
       </Routes>
     </div>

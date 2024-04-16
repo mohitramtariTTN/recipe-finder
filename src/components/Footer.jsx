@@ -20,7 +20,7 @@ const Footer = () => {
                         >
                             Home
                         </a>
-                        <a
+                        <a href="/about"
                             className='block md:inline-block py-2 hover:text-gray-500'
                         >
                             About
@@ -31,30 +31,20 @@ const Footer = () => {
                 <div>
                     <p>LEGAL</p>
                     <div className='flex flex-col text-start mb-4 md:mb-0 text-[14px]'>
-                        <a
+                        <a href="/termsAndConditions"
                             className='block md:inline-block py-2 hover:text-gray-500'
                         >
                             Terms and Conditions
                         </a>
-                        <a
+                        <a href="/license"
                             className='block md:inline-block py-2 hover:text-gray-500'
                         >
                             License Agreement
                         </a>
-                        <a
+                        <a href="/privacyPolicy"
                             className='block md:inline-block py-2 hover:text-gray-500'
                         >
                             Privacy Policy
-                        </a>
-                        <a
-                            className='block md:inline-block py-2 hover:text-gray-500'
-                        >
-                            Copyright Information
-                        </a>
-                        <a
-                            className='block md:inline-block py-2 hover:text-gray-500'
-                        >
-                            Cookies Policy
                         </a>
                     </div>
                 </div>
